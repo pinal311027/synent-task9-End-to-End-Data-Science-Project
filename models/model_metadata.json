@@ -1,0 +1,24 @@
+{
+  "model_name": "Random Forest",
+  "model_type": "RandomForestClassifier",
+  "accuracy": 0.9698275862068966,
+  "precision": 0.9664948453608248,
+  "recall": 0.97911227154047,
+  "f1_score": 0.9727626459143969,
+  "roc_auc": 0.9923798163147841,
+  "cv_mean": 0.9191260994794828,
+  "cv_std": 0.012487006152918197,
+  "feature_names": [
+    "Age",
+    "Sex",
+    "ChestPainType",
+    "RestingBP",
+    "Cholesterol",
+    "FastingBS",
+    "RestingECG",
+    "MaxHR",
+    "ExerciseAngina",
+    "Oldpeak",
+    "ST_Slope"
+  ]
+}
