@@ -17,11 +17,12 @@
 
 ## 📖 Table of Contents
 
-- [🎯 Problem Statement](#-problem-statement)
-- [📊 Dataset Details](#-dataset-details)
-- [🔄 Approach](#-approach)
-- [🤖 Results](#-results)
+- [🎯 Project Overview](#-project-overview)
+- [💡 Motivation](#-motivation)
+- [📊 Dataset](#-dataset)
+- [🔄 Workflow](#-workflow)
 - [📈 Exploratory Data Analysis](#-exploratory-data-analysis)
+- [🤖 Model Building & Results](#-model-building--results)
 - [🚀 Deployment](#-deployment)
 - [⚙️ Installation & Setup](#️-installation--setup)
 - [📁 Project Structure](#-project-structure)
@@ -31,9 +32,7 @@
 
 ---
 
-## 🎯 Problem Statement
-
-Cardiovascular disease is the **#1 cause of death globally**, responsible for approximately **17.9 million deaths per year** (WHO). Early detection and prediction of heart disease can significantly improve patient outcomes and reduce mortality rates.
+## 🎯 Project Overview
 
 This project implements a **complete end-to-end data science pipeline** for predicting heart disease risk from patient clinical parameters. It covers the entire data science lifecycle:
 
@@ -47,6 +46,12 @@ This project implements a **complete end-to-end data science pipeline** for pred
 
 The deployed application allows users to input patient clinical data and receive an **instant heart disease risk prediction** with a confidence score.
 
+---
+
+## 💡 Motivation
+
+Cardiovascular disease is the **#1 cause of death globally**, responsible for approximately **17.9 million deaths per year** (WHO). Early detection and prediction of heart disease can significantly improve patient outcomes and reduce mortality rates.
+
 This project demonstrates how machine learning can assist healthcare professionals in identifying at-risk patients based on readily available clinical measurements, enabling:
 
 - **Early Intervention** — Identify high-risk patients before symptoms worsen
@@ -57,7 +62,7 @@ This project demonstrates how machine learning can assist healthcare professiona
 
 ---
 
-## 📊 Dataset Details
+## 📊 Dataset
 
 **Sources (3 Kaggle datasets merged):**
 
@@ -97,7 +102,7 @@ After merging, deduplication, cleaning, and **Gaussian-noise augmentation**:
 
 ---
 
-## 🔄 Approach
+## 🔄 Workflow
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -184,7 +189,7 @@ All visualizations use a consistent **dark theme** with a professional color pal
 
 ---
 
-## 🤖 Results
+## 🤖 Model Building & Results
 
 ### Models Trained
 
